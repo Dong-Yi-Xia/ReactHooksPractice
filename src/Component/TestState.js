@@ -1,9 +1,12 @@
 import React, {useState} from 'react'
 
-
+// in a Class Component 
+// this.setState({
+//   [name]: value
+// })
 
 let Num = () => {
-    console.log("running a function")
+    console.log("running a function in count state")
     return 5
   }
 
