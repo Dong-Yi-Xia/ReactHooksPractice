@@ -33,8 +33,11 @@ function AxiosReq (){
     let handleSubmit = (evt) => {
         evt.preventDefault()
 
-        // const user = {name: name}
-        axios.post('http://localhost:3000/users', {name} )
+        let user = () => {
+            return {name:name, age:5}
+        }
+        // axios.post('http://localhost:3000/users', {name} )
+        axios.post('http://localhost:3000/users', user() )
         .then(res => {
             console.log(res.data)
             setName("")
