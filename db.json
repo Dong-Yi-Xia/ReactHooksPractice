@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret"
+    },
+    {
+      "id": 2,
+      "name": "Patrick sSh",
+      "username": "Love"
+    },
+    {
+      "id": 3,
+      "name": "Moon heaven",
+      "username": "Polly"
+    },
+    {
+      "name": "sdfs",
+      "id": 4
+    },
+    {
+      "name": "sdfsadf",
+      "id": 5
+    },
+    {
+      "name": "more added",
+      "id": 6
+    },
+    {
+      "name": "lee brian",
+      "id": 7
+    }
+  ]
+}
