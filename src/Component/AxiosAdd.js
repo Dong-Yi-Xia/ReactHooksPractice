@@ -14,6 +14,7 @@ function AxiosAdd (){
     let handleSubmit = (evt) => {
         evt.preventDefault()
 
+        //this a data payload
         const user = {newNameAdded: name}
 
         axios.post('https://jsonplaceholder.typicode.com/users', {user})
